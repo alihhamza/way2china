@@ -1,0 +1,1767 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color:#F9FBFF;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-transform: capitalize;
+    margin: 33px 0;
+}
+
+/*******************************/
+/*****Authentication Pages*****/
+/*****************************/
+
+.authentication-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-background{
+    max-width: 50%;
+    width: 100%;
+    text-align: center;
+    background-image: url('assets/images/login-backgroung.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrapper-content{
+    max-width: 50%;
+    width: 100%;
+}
+
+.authentication-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.authentication-form{
+    max-width: 420px;
+    width: 100%;
+    margin: auto;
+}
+
+.authentication-form label{
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.5;    
+    margin: 10px 0px;
+}
+
+.authentication-form input[type=text], .authentication-form input[type=password], .authentication-form input[type=email]{
+    width: 100%;
+    min-height: 40px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #BDBDBD;
+}
+
+.authentication-form input::placeholder{
+    color: #8F8F8F;
+}
+
+.authentication-form .form-links{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.authentication-form .form-links a{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #579AFF;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+
+.authentication-form .form-submit-button{
+    width: 100%;
+    background: #579AFF;
+    border-radius: 30px;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.authentication-form .form-more-option{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.authentication-form .form-more-option a{
+    color: #579AFF;
+    text-decoration-line: underline;
+    margin-left: 10px;
+}
+
+.registration .wrapper-background{
+    background-image: url('assets/images/registration-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/**************************/
+/*****Dashboard Pages*****/
+/************************/
+
+.way2china-dashboard-header{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+/***************************************************/
+.notification-icon{
+    margin-right: 20px;
+}
+
+/* My Profile Dropdown*/
+.my-profile-dropdown button{
+    background-color: black;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 6px 12px;
+}
+
+.my-profile-dropdown button span{
+    margin-left: 10px;
+}
+
+.my-profile-dropdown button:after{display: none;}
+
+.my-profile-dropdown button:hover{color: #FFFFFF;}
+
+.my-profile-dropdown button:focus{box-shadow: none;}
+
+.my-profile-dropdown .user-profile-detail{
+    background-color: #579AFF;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.my-profile-dropdown .user-image{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin-right: 10px;
+}
+
+.my-profile-dropdown .user-image img{
+    border-radius: 50%;
+}
+
+.my-profile-dropdown .user-detail{
+    width: calc(100% - 60px);
+}
+
+.my-profile-dropdown .user-detail .fullname{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.my-profile-dropdown .user-detail .username{
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+ul.dropdown-menu{
+    max-width: 300px;
+    min-width: 300px;
+    width: 100%;
+    padding: 0;
+    border-radius: 10px;
+}
+
+ul.dropdown-menu li{
+    margin: 10px 0;
+    padding: 5px 20px;
+}
+
+ul.dropdown-menu li a{
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 0;
+}
+
+ul.dropdown-menu li a:hover{
+    background-color: transparent;
+}
+
+ul.dropdown-menu li a.logout{
+    color: #EE3742 !important;
+}
+
+ul.dropdown-menu li a img{
+    margin-right: 5px;
+}
+
+/***************************************/
+
+.sidebar{
+    max-width: 300px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000B1C;
+}
+
+.sidebar-user-detail{
+    background-color: #001432;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-user-detail .image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin-right: 10px;
+}
+
+.sidebar-user-detail .image img{
+    border-radius: 50%;
+}
+
+.sidebar-user-detail .detail{
+    width: calc(100% - 90px);
+}
+
+.sidebar-user-detail .name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #579AFF;
+    text-transform: capitalize;
+}
+
+.sidebar-user-detail .username{
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.sidebar-menu{
+    margin: 30px 0 0 15px;
+}
+
+.sidebar-menu li{
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+.sidebar-menu li:hover, .sidebar-menu li.active{
+    background-color: #FFFFFF;
+    border-radius: 30px 0 0 30px;
+}
+
+.sidebar-menu li a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sidebar-menu li:hover a,
+.sidebar-menu li.active a
+{
+    color: #579AFF;
+}
+
+.sidebar-menu li:hover svg path,
+.sidebar-menu li.active svg path
+{
+    fill: #579AFF;
+}
+
+.sidebar-menu li a svg{
+    margin-right: 5px;
+}
+
+/*********************/
+/***** DASHOARD *****/
+/*******************/
+
+
+.main-dashboard-section{
+    padding: 30px;
+}
+
+.max-width-1024{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dashboard-wrapper{
+    background-image: url('assets/images/dashboard-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.basic-card{
+    min-height: 260px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+.promotions{
+    background-image: url('assets/images/promotion-background.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px;
+}
+
+.card-label{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+    opacity: 0.5;
+}
+.card-label span{margin-bottom: 10px;}
+.card-label p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+    margin: 0;
+}
+
+.application-id{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.payment-status{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 3px 10px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.payment-status.pending-status{
+    border: 1px solid #DE0000;
+    color: #DE0000;
+}
+
+.payment-status.received{
+    border: 1px solid #00BB4B;
+    color: #00BB4B;
+}
+
+.payment-status.pay{
+    border: 1px solid #FD4444;
+    color: #ffffff;
+    background-color: #FD4444;
+}
+
+.payment-status.rejected{
+    border: 1px solid #C60000;
+    color: #C60000;
+}
+
+.payment-status.in-progress{
+    border: 1px solid #1446F5;
+    color: #1446F5;
+}
+
+.news-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #F1A002;
+    margin-bottom: 10px;
+}
+
+.news-description{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    color: #111111;
+}
+
+.pay-now-button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background-color: #579AFF;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    margin-top: 35px;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.pay-now-button:hover{color: #FFFFFF;}
+
+.apply-now-button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    margin-top: 35px;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.apply-now-button:hover{color: #FFFFFF;}
+
+.dashboard-applications-tabs{
+    margin: 30px 0;
+}
+
+.dashboard-applications-tabs .nav-tabs .nav-item.show .nav-link, 
+.dashboard-applications-tabs .nav-tabs, 
+.dashboard-applications-tabs .nav-tabs .nav-link.active{
+    border: none;
+    background-color: transparent !important;
+    padding: 0;
+}
+.dashboard-applications-tabs .nav-tabs .nav-item{margin: 0 20px; margin-bottom: 10px;}
+.dashboard-applications-tabs .nav-tabs .nav-item:first-child{margin-left: 0;}
+.dashboard-applications-tabs .nav-tabs .nav-item:last-child{margin: 0;}
+.dashboard-applications-tabs button.nav-link{padding: 0;}
+.dashboard-applications-tabs button.nav-link:hover, .dashboard-applications-tabs button.nav-link:focus{border-color: transparent !important;}
+.dashboard-applications-tabs button.nav-link:focus-visible{outline: none;}
+.dashboard-applications-tabs .tab-card{
+    min-width: 180px;
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+}
+.dashboard-applications-tabs .tab-card .tab-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 20px 0 5px 0;
+}
+
+.dashboard-applications-tabs .application-count{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.dashboard-applications-tabs .radio{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url('assets/images/radio-uncheck.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dashboard-applications-tabs button.nav-link.active .radio{
+    background-image: url('assets/images/radio-checked.png');
+}
+
+.dashboard-applications-tabs .table-wrapper{
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.dashboard-applications-tabs .table-wrapper .table-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-transform: capitalize;
+    margin: 33px 0;
+}
+
+.dashboard-applications-tabs .table-wrapper .table{overflow-x: scroll;}
+.dashboard-applications-tabs .table-wrapper .table thead{background-color: #579AFF; border: none !important;}
+.dashboard-applications-tabs .table-wrapper .table thead tr{ border: none !important;}
+.dashboard-applications-tabs .table-wrapper .table td,
+.dashboard-applications-tabs .table-wrapper .table th{vertical-align: middle;}
+.dashboard-applications-tabs .table-wrapper .table thead th{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500 !important;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.dashboard-applications-tabs .table-wrapper .table tbody th{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px !important;
+    font-weight: 600;
+    line-height: 18px !important;
+    color: #000000 !important;
+}
+.dashboard-applications-tabs .table-wrapper .table tbody td{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    color: #000000 !important;
+}
+
+/* .dashboard-applications-tabs .table-wrapper .table tr td{max-width: 100px; width: 100%;} */
+
+.dashboard-applications-tabs .table .action-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-applications-tabs .table .action-buttons button,
+.dashboard-applications-tabs .table .action-buttons a{
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.dashboard-applications-tabs .table .action-buttons button i.fa-pencil{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    color: #1446F5;
+    background-color: #EBEFFF;
+}
+
+i.fa-download{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    color: #1446F5;
+    background-color: #EBEFFF;
+}
+
+.dashboard-applications-tabs .table .action-buttons button i.fa-trash{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    color: #C60000;
+    background-color: #FFDCDC;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>*{
+    background-color: #F3F8FF !important;
+}
+
+/***********************/
+/***** MY PROFILE *****/
+/*********************/
+
+.my-profile-card{
+    background-color: #579AFF;
+    padding-bottom: 0px;
+}
+
+.my-profile-card .row{padding: 30px;}
+
+.profile-user-detail{
+    display: flex;
+    align-items: center;
+}
+
+.my-profile-card .title{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.my-profile-card .image{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.my-profile-card .image img{
+    border-radius: 50%;
+}
+
+.my-profile-card .detail{
+    width: calc(100% - 110px);
+}
+
+.my-profile-card .detail .name{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.my-profile-card .detail .username{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+/****************************/
+/***Circular Progress Bar***/
+/**************************/
+
+.progress {
+    width: 150px;
+    height: 150px !important;
+    float: left;
+    line-height: 150px;
+    background: none;
+    margin: 20px;
+    box-shadow: none;
+    position: relative
+}
+
+.progress:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #377CE4;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1
+}
+
+.progress .progress-left {
+    left: 0
+}
+
+.progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0
+}
+
+.progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left
+}
+
+.progress .progress-right {
+    right: 0
+}
+
+.progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards
+}
+
+.progress .progress-value {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #579AFF;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%
+}
+
+.progress.blue .progress-bar {
+    border-color: #ffffff
+}
+
+.progress.blue .progress-left .progress-bar {
+    animation: loading-2 1.5s linear forwards 1.8s
+}
+
+@keyframes loading-1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg)
+    }
+}
+
+/****************************/
+/***Circular Progress Bar***/
+/**************************/
+
+.profile-tabs-row{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.profile-tabs #profileTab{ border: none; background-color: #EEF4FE; width: max-content; padding: 5px 0; border-radius: 10px;}
+
+.profile-tabs #profileTab button.nav-link{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #6C6C6C;
+    background-color: #ffffff;
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.profile-tabs #profileTab button.nav-link.active{
+    color: #ffffff;
+    background-color: #579AFF;
+}
+
+.profile-info-form{
+    margin-top: 30px;
+}
+
+.profile-info-form .row{
+    padding: 0;
+}
+
+.profile-info-form label{
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.5;    
+    margin: 10px 0px;
+}
+
+.profile-info-form input[type=text], .profile-info-form input[type=password], .profile-info-form input[type=email],
+.profile-info-form input[type=date], select{
+    width: 100%;
+    min-height: 40px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #BDBDBD;
+}
+
+select{
+    appearance: none;
+    background-image: url('assets/images/select-arrow.png');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+#upload-document .file-button{
+    background: #579AFF;
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: #FFFFFF !important;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.passport-file-name{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #EEEEEE;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+}
+
+.profile-info-form input::placeholder{
+    color: #8F8F8F;
+}
+
+.profile-info-form .form-links{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.profile-info-form .form-links a{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #579AFF;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+
+.profile-info-form .form-submit-button{
+    width: 100%;
+    background: #579AFF;
+    border-radius: 30px;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: 40px !important;
+}
+
+.new-card .date{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.new-card .card-title{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #579AFF;
+    margin: 5px 0 !important;
+    text-transform: capitalize;
+}
+
+.new-card .card-text{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+/**********************/
+/***** Help Desk *****/
+/********************/
+
+.help-desk-card{padding: 30px;}
+
+.help-desk-card .title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.help-desk-card .description{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+.chat-messages-dialog{
+    position: relative;
+    background: #F9FBFF;
+    border: 1px solid #E8F1FF;
+    border-radius: 10px;
+    padding: 30px 0;
+    height: 65vh;
+}
+
+.help-desk-chat{
+    min-height: calc(100% - 70px);
+    max-height: calc(100% - 70px);
+    overflow: auto;
+    padding: 10px 20px;
+}
+
+.help-desk-chat li{
+    margin-bottom: 10px;
+}
+
+.help-desk-chat li.receive{
+    max-width:330px;
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 10px 10px 10px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.help-desk-chat li.send{
+    max-width:330px;
+    width: 100%;
+    padding: 10px;
+    background-color: #579AFF;
+    border-radius: 10px 10px 0 10px;
+    margin-left: auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.help-desk-chat li.receive .message,
+.help-desk-chat li.send .message{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.help-desk-chat li.receive .time,
+.help-desk-chat li.send .time{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    width: 100%;
+    text-align: right;
+}
+
+.input-message-box{
+    padding: 0 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+}
+
+.input-message-box input{
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #579AFF;
+    min-height: 40px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.input-message-box button{
+    position: absolute;
+    top: 1px;
+    right: 25px;
+}
+
+.input-message-box button:focus{box-shadow: none;}
+
+/***********************************************************************************/
+/****************************** MAIN PAGES OF WAY 2 CHINA **************************/
+/***********************************************************************************/
+
+.way2china-header{
+    background-color: #FFFFFF;
+}
+
+.way2china-header #way2china-header ul{align-items: center;}
+
+.way2china-header #way2china-header ul li{margin: 0 15px;}
+.way2china-header #way2china-header ul li:first-child{margin-left: 0;}
+.way2china-header #way2china-header ul li:nth-last-child(1),
+.way2china-header #way2china-header ul li:nth-last-child(2){margin: 0 10px;}
+.way2china-header #way2china-header ul li:last-child{margin-right: 0;}
+.way2china-header #way2china-header ul li a{
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.way2china-header #way2china-header ul li a.menu-btn{
+    padding: 8px 20px;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.way2china-header #way2china-header ul li a.menu-btn.register{background-color: #0D0D0D;}
+
+.way2china-header #way2china-header ul li a.menu-btn.login{background-color: #579AFF;}
+
+.way2china-footer{
+    background-color: #000F26;
+    padding: 100px 10px 20px 10px;
+}
+
+.way2china-footer .row:first-child{
+    border-bottom: 1px solid #002761;
+    padding-bottom: 30px;
+}
+
+.way2china-footer .slogan{
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 50px 0;
+}
+
+ul.footer-socials {
+    display: flex;
+    align-items: center;
+}
+
+ul.footer-socials li {margin: 0 15px;}
+ul.footer-socials li:first-child {margin-left: 0;}
+ul.footer-socials li:last-child {margin-right: 0;}
+
+ul.footer-socials li a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+ul.footer-socials li a:hover {
+    background-color: #18b1d3;
+    border-color: #18b1d3;
+    box-shadow: 0px 0px 0px 5px rgb(47 68 73 / 50%);
+    -webkit-box-shadow: 0px 0px 0px 5px rgb(24 177 211 / 50%);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(24, 177, 211, 0.5);
+}
+
+.footer-heading {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #579AFF;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+ul.footer-menu li {margin-bottom: 20px;}
+
+ul.footer-menu li a, ul.footer-menu li span {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.p-30{
+    padding: 0 30px;
+}
+.border-left-right{
+    border-left: 1px solid #002761;
+    border-right: 1px solid #002761;
+}
+
+.copy{
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+/***************************************************************/
+
+.way2china-hero-banner{
+    background-image: url('assets/images/hero-banner-homepage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 10px;
+}
+
+.small{
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.way2china-hero-banner h1{
+    font-family: 'Vast Shadow', cursive;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.way2china-hero-banner p{
+    max-width: 460px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.way2china-hero-banner .hero-cta{
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 8px 20px;
+    color: #0D0D0D;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.way2china-best-in-industry{
+    padding: 100px 10px;
+}
+
+.way2china-best-in-industry h2{
+    font-family: 'Cabin Sketch', cursive;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.way2china-best-in-industry p{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.way2china-best-in-industry .cta{
+    margin-top: 50px;
+    background-color: #579AFF;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 8px 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.way2china-about-us{
+    padding: 100px 10px;
+    background-color: #579AFF;
+}
+
+.way2china-about-us h2, .way2china-our-courses h2, .way2china-success-stories h2{
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.way2china-about-us p, .way2china-our-courses p{
+    max-width: 475px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.way2china-about-us .cta-about{
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 8px 20px;
+    color: #0D0D0D;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.way2china-our-courses{
+    padding: 100px 10px;
+}
+
+.way2china-our-courses h2, .way2china-our-courses p{color: #000000;}
+
+.course{
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.course-slider .item {
+    padding: 20px 0;
+}
+.course .icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.course .title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #579AFF;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.course .description{
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.way2china-success-stories{
+    padding: 100px 10px;
+    background-image: url('assets/images/story-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.story-box{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.story-box .description {
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.7;
+    margin: 20px 0 60px 0;
+}
+
+.story-box .author{
+    font-size: 24px;
+    line-height: 31px;
+    color: #579AFF;
+}
+
+.way2china-why-choose-us{
+    padding: 100px 10px;
+    background-color: #FFFFFF;
+}
+
+.way2china-why-choose-us h2{
+    font-family: Cabin Sketch;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.choose-card {
+    text-align: center;
+}
+.choose-card .icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.choose-card .icon img{width: 100%; height: 100%;}
+.choose-card .title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.choose-card .desp {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.way2china-testimonial{
+    padding: 100px 10px;
+    background-color: #F9FBFF;
+}
+
+.way2china-testimonial h2{
+    font-family: Cabin Sketch;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #579AFF;
+    margin-bottom: 50px;
+}
+
+.way2china-testimonial .testimonial-card{
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card .comment{
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.testimonial-card .reviewer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-card .image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial-card .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.reviewer .detail{
+    width: calc(100% - 65px);
+}
+.reviewer .detail .name{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #579AFF;
+    text-transform: capitalize;
+}
+
+.reviewer .detail .tagline{
+    font-size: 14px;
+    line-height: 18px;
+    color: #0D0D0D;
+    opacity: 0.5;
+    text-transform: capitalize;
+}
+
+.hero-banner-section{
+    background-color: #579AFF;
+}
+
+.hero-banner-section h1{
+    font-family: Cabin Sketch;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.hero-banner-section p {
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.way2china-values{
+    padding: 70px 10px;
+    background-color: #FFFFFF;
+}
+
+.way2china-values h2{
+    font-family: Cabin Sketch;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #2162C5;
+}
+
+.way2china-values .value-card .icon{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.way2china-values .value-card .title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #111111;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.way2china-values .value-card .desp{
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+    opacity: 0.5;
+}
+
+.way2china-contact-us{
+    padding: 100px 10px;
+    background-image: url('assets/images/contact-us-background.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.way2china-contact-us h1{
+    font-family: Cabin Sketch;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.way2china-contact-us p{
+    max-width: 530px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-card{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 30px;
+}
+.contact-card ul li{margin: 20px;}
+.contact-card ul li a{
+    display: flex;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    text-decoration: none;
+}
+.contact-card ul li a .icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-card form label{
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.5;
+    margin: 10px 0px;
+}
+
+.contact-card form input{
+    padding: 10px 20px;
+    border-radius: 30px;
+    min-height: 40px;
+    border: 1px solid #BDBDBD;
+}
+
+
+.contact-card form textarea{
+    resize: none;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 30px;
+    margin: 10px 0px;
+    min-height: 150px;
+    padding: 20px;
+}
+
+.contact-card form button{
+    width: 100%;
+    background: #0C001C;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 14px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+/************************/
+/***** MEDIA QUERY *****/
+/**********************/
+
+@media(min-width: 1440px){
+    .help-desk-chat li.send,
+    .help-desk-chat li.receive{
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1200px){
+    .sidebar{max-width: 250px;}
+    .sidebar-user-detail{padding: 20px 15px;}
+    .application-id{font-size: 22px;}
+    .promotions{
+        background-position: bottom right;
+        background-size: 48%;
+    }
+    ul#myTab{
+        overflow-x: auto;
+        flex-wrap: nowrap !important;
+    }
+    .profile-info-form{
+        padding: 0 30px;
+    }
+    .way2china-best-in-industry h2,
+    .way2china-about-us h2,
+    .way2china-our-courses h2,
+    .way2china-success-stories h2,
+    .way2china-why-choose-us h2{
+        font-size: 42px !important;
+        line-height: 50px;
+    }
+    .course .title{font-size: 17px; line-height: 24px;}
+    .footer-heading{font-size: 20px; line-height: 28px;}
+}
+
+@media(max-width: 991px){
+    div#way2china-header{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+        padding: 20px;
+    }
+    a.navbar-brand img, .way2china-footer img:first-child{width: 70%;}
+    .way2china-header #way2china-header ul{align-items: unset;}
+    .way2china-header #way2china-header ul li{margin: 5px 0;}
+    .way2china-header #way2china-header ul li a.menu-btn{display: inline-block; padding: 0; color: #000; background-color: none;}
+    .way2china-header #way2china-header ul li:nth-last-child(1),
+    .way2china-header #way2china-header ul li:nth-last-child(2){margin: 5px 0;}
+    .way2china-header #way2china-header ul li a.menu-btn.register,
+    .way2china-header #way2china-header ul li a.menu-btn.login{background-color: transparent;}
+
+    .authentication-wrapper{padding: 30px 30px; justify-content: space-between;}
+    .wrapper-content{max-width: 45%;}
+    .authentication-title{margin-bottom: 20px; font-size: 30px;}
+    .authentication-form label, .authentication-form input, .authentication-form .form-submit-button, .authentication-form .form-more-option{font-size: 14px;}
+    .authentication-form .form-links{margin-bottom: 40px;}
+    .authentication-form .form-submit-button{margin-bottom: 20px;}
+    .authentication-form .form-more-option a{margin-left: 5px;}
+
+    .sidebar{position: absolute; z-index: 99999; left: -100%; transition: 0.5s all ease-in-out;}
+    #sidebar-hide-show:checked ~ .sidebar{left: 0;}
+
+    .border-left-right{border-left: 0;}
+    .way2china-footer .slogan{margin: 30px 0;}
+    .footer-heading{margin-bottom: 30px;}
+    .p-30{padding: 0 10px;}
+}
+
+@media(max-width: 767px){
+    .authentication-wrapper{padding: 30px 10px;}
+    .wrapper-background{display: none;}
+    .wrapper-content{max-width: 100%; margin: 0 auto;}
+    .profile-info-form{padding: 0 20px;}
+    .my-profile-dropdown button span{display: none;}
+    .my-profile-dropdown button{ padding: 6px;}
+    ul.dropdown-menu{min-width: 250px;}
+    .way2china-hero-banner,
+    .way2china-why-choose-us,
+    .way2china-our-courses,
+    .way2china-success-stories,
+    .way2china-testimonial,
+    .way2china-best-in-industry,
+    .way2china-values,
+    .way2china-contact-us{padding: 50px 10px;}
+    .way2china-hero-banner h1{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .way2china-contact-us{background-size: cover;}
+    .hero-banner-section{padding-top: 50px;}
+    .way2china-about-us h2{margin-top: 30px;}
+    .way2china-best-in-industry h2,
+    .way2china-about-us h2,
+    .way2china-our-courses h2,
+    .way2china-success-stories h2,
+    .way2china-why-choose-us h2,
+    .way2china-testimonial h2,
+    .way2china-values h2{
+        font-size: 32px !important;
+        line-height: 40px;
+    }
+    .contact-card ul li a{
+        font-size: 16px;
+        line-height: 1.3;
+    }
+}
